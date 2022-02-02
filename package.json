@@ -6,7 +6,8 @@
         "doc": "docs"
     },
     "scripts": {
-        "build": "rm -rf docs/* & npx parcel build index.html --dist-dir docs --public-url /bio"
+        "build": "rm -rf docs/* & npx parcel build index.html --dist-dir docs --public-url /bio",
+        "dev": "npx parcel index.html"
     },
     "repository": {
         "type": "git",
