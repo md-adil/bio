@@ -18,3 +18,7 @@ body {
 strong {
     font-weight: 500;
 }
+
+.contact .card-body div {
+    margin: 0.25rem 0;
+}
