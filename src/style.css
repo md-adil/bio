@@ -22,3 +22,21 @@ strong {
 .contact .card-body div {
     margin: 0.25rem 0;
 }
+
+.banner {
+    position: relative;
+    color: #fff;
+    background-position: center;
+    background-image: url("./images/banner.jpeg");
+}
+.banner img {
+    border: 2px solid #fff;
+}
+.banner::before {
+    content: " ";
+    background: rgb(10 7 7 / 53%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
