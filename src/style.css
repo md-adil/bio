@@ -23,6 +23,9 @@ strong {
     margin: 0.25rem 0;
 }
 
+.family .card-body div {
+    margin: 0.35rem 0;
+}
 .banner {
     position: relative;
     color: #fff;
