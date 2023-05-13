@@ -30,7 +30,7 @@ strong {
     position: relative;
     color: #fff;
     background-position: center;
-    background-image: url("./images/banner.jpeg");
+    background-image: url("./images/banner-min.jpeg");
 }
 .banner img {
     border: 2px solid #fff;
