@@ -6,7 +6,8 @@
         "doc": "docs"
     },
     "scripts": {
-        "build": "rm -rf docs/* & parcel build index.html --dist-dir docs --public-url /bio",
+        "build": "rm -rf docs/* & NODE_OPTIONS=--no-experimental-fetch parcel build index.html --public-url /bio",
+        "deploy": "gh-pages -d dist",
         "dev": "parcel index.html"
     },
     "repository": {
@@ -19,9 +20,10 @@
     "bugs": {
         "url": "https://github.com/md-adil/bio/issues"
     },
-    "homepage": "https://github.com/md-adil/bio#readme",
+    "homepage": "https://github.com/md-adil/bio",
     "dependencies": {},
     "devDependencies": {
+        "gh-pages": "^5.0.0",
         "parcel": "^2.8.3"
     }
 }
