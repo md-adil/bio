@@ -6,7 +6,7 @@
         "doc": "docs"
     },
     "scripts": {
-        "build": "rm -rf docs/* & NODE_OPTIONS=--no-experimental-fetch parcel build index.html --public-url /bio",
+        "build": "rm -rf dist/* & NODE_OPTIONS=--no-experimental-fetch parcel build index.html --public-url /bio",
         "deploy": "gh-pages -d dist",
         "dev": "parcel index.html"
     },
