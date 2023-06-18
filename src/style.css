@@ -2,6 +2,16 @@ body {
     /*color: #f1f1f1;*/
     background: #e7e6e6;
 }
+.lang-ur {
+    display: none;
+}
+body.is-lang-ur .lang-en {
+    display: none;
+}
+body.is-lang-ur .lang-ur {
+    display: block;
+}
+
 .container section {
     margin-bottom: 10px;
 }

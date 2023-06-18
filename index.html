@@ -44,13 +44,36 @@
             <div class="row">
                 <section class="personal col-sm-12 col-md-8">
                     <div class="card">
-                        <div class="card-header">About me</div>
+                        <div class="card-header justify-space-between">
+                            <span> About me </span>
+                            <button
+                                class="btn btn-default btn-sm"
+                                onclick="document.body.classList.contains('is-lang-ur') ? body.classList.remove('is-lang-ur') : body.classList.add('is-lang-ur')"
+                            >
+                                <span class="lang-ur">Read in English</span>
+                                <span class="lang-en"> اردو میں پڑھیں </span>
+                            </button>
+                        </div>
                         <div class="card-body">
-                            <p>I am a software developer working at Bajaj Finserv Health as a Sr Software Architect in Pune.<br /></p>
-                            <p>With 9 years of experience in software engineering, I have taught myself to code, proving that with determination, anything is possible.</p>
-                            <p>In my free time, I enjoy watching movies, solving puzzles, and staying fit.</p>
-                            <p>Seeking someone independent, modern, and intelligent with a desire to explore and discover new things.</p>
-                            <p>Together, I believe we can make the most of life, visiting new places and enjoying all that it has to offer.</p>
+                            <div></div>
+
+                            <div class="lang-en">
+                                <p>I am a software developer working at Bajaj Finserv Health as a Sr Software Architect in Pune.<br /></p>
+                                <p>With 9 years of experience in software engineering, I have taught myself to code, proving that with determination, anything is possible.</p>
+                                <p>In my free time, I enjoy watching movies, solving puzzles, and staying fit.</p>
+                                <p>Seeking someone independent, modern, and intelligent with a desire to explore and discover new things.</p>
+                                <p>Together, I believe we can make the most of life, visiting new places and enjoying all that it has to offer.</p>
+                            </div>
+                            <div class="lang-ur">
+                                <p>میں ایک سافٹ ویئر ڈویلپر ہوں اور پونے میں بجاج فنسرو ہیلتھ میں ایک سینئر سافٹ ویئر آرکیٹیکٹ کے طور پر کام کر رہا ہوں۔</p>
+                                <p>نو سال کے تجربے کے ساتھ سافٹ ویئر انجینئرنگ میں میری تعلیم خود سے کوڈ کرنا ہے ، جو ثابت کرتا ہے کہ عزم کے ساتھ کچھ بھی ممکن ہے۔</p>
+                                <p>فری ٹائم میں میں فلمیں دیکھنے ، پازل حل کرنے اور فٹ رہنا کا لطف اٹھاتا ہوں۔</p>
+                                <p>
+                                    میں ایک خیال رکھنے والے اور خوش اخلاق خاندان سے تعلق رکھتا ہوں اور ایک ایسی شخصیت کی تلاش کر رہا ہوں جو آزاد ، جدید اور ذہین ہو اور نئی چیزوں کی
+                                    تلاش اور دریافت کا خواہشمند ہو۔
+                                </p>
+                                <p>مجھے یقین ہے کہ ہم مل کر زندگی کا بہترین حصہ بنا سکتے ہیں ، نئی جگہوں کا دورہ کرتے ہوئے اور جو کچھ یہ پیش کرتا ہے ، اس کا لطف اٹھا کر۔</p>
+                            </div>
                             <div>Date of birth : <strong>Oct 05, 1991</strong></div>
                             <div>Height : <strong>5'4"</strong></div>
                         </div>
@@ -140,7 +163,8 @@
                             <div>
                                 Caste: Muslim, Sheikh
                                 <div>
-                                    <small>We are muslims and believe in Islam. Castes doesn't matter for us</small>
+                                    <small class="lang-en">We are muslims and believe in Islam. Castes doesn't matter for us</small>
+                                    <small class="lang-ur">ہم مسلمان ہیں اور اسلام پر ایمان رکھتے ہیں۔ ہمارے لئے نسبیات اہمیت نہیں رکھتی ہیں۔</small>
                                 </div>
                             </div>
                         </div>
