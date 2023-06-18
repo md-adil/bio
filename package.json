@@ -7,7 +7,7 @@
     },
     "scripts": {
         "build": "rm -rf dist/* & NODE_OPTIONS=--no-experimental-fetch parcel build index.html --public-url /bio",
-        "deploy": "gh-pages -d dist",
+        "deploy": "yarn build && gh-pages -d dist",
         "dev": "parcel index.html"
     },
     "repository": {
