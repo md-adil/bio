@@ -53,3 +53,11 @@ strong {
     position: absolute;
     top: 0;
 }
+
+ul {
+    padding-left: 1rem;
+}
+
+ul li {
+    padding-bottom: 0.5rem;
+}
