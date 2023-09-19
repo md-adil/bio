@@ -21,7 +21,6 @@
         "url": "https://github.com/md-adil/bio/issues"
     },
     "homepage": "https://github.com/md-adil/bio",
-    "dependencies": {},
     "devDependencies": {
         "gh-pages": "^5.0.0",
         "parcel": "^2.9.2"
